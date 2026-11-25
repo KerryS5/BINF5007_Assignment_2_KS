@@ -46,9 +46,11 @@ def calculate_median(number:list)->float:
     # TODO - Complete the function to return the median of the numbers in the list
     sorted_list = sorted(number)
     if len(number)%2 == 0:
-        return(median = sorted_list[n//2-1] + sorted_list[n//2]/2)
+        median =(sorted_list[(len(number))//2-1] + sorted_list[n//2]/2)
     else:
-        return(sorted_list[n//2])
+        median = (sorted_list[((len(number)) //2])
+        
+    return median
     
     pass
 
